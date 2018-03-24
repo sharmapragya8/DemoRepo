@@ -29,7 +29,7 @@ public class DuplicateCharInString {
 			{
 				map.put(c, map.get(c)+1);
 			}
-			Set<Map<K, V>.entry<Character, Integer>> entrySet=map.entrySet();
+			//Set<Map<K, V>.entry<Character, Integer>> entrySet=map.entrySet();
 			for(Map.Entry<Character, Integer>:entrySet)
 			{
 				if(entry.getValue()>1)
@@ -37,7 +37,11 @@ public class DuplicateCharInString {
 					System.out.println("%s   :   %d ");
 				}
 			}
+			
+			
 		}
+		System.out.println("inside the program............");
+		
 	}
 
 }
